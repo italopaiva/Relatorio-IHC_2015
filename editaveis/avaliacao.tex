@@ -79,7 +79,7 @@
     
       O questionário ASQ é um questionário feito para ser usado, como o próprio nome diz, imediatamente após cada cenário de uso
       completo, que permite avaliar a satisfação do usuário durante a participação de um estudo de usabilidade baseado em cenários,
-      onde um cenário é um conjunto de tarefas relacionadas (LEWIS, 1991).
+      onde um cenário é um conjunto de tarefas relacionadas \cite{lewis91}.
       
       Consiste em apenas três itens que possuem padrão de resposta gradativo de sete escalas, que varia de “Concordo fortemente” 
       a “Discordo fortemente” e também conta com a opção “Não aplicável” fora da escala. A pontuação do questionário pode ser
@@ -87,7 +87,7 @@
       
       Os aspectos abordados nos itens do ASQ são: facilidade de completar as tarefas, tempo necessário para completar as tarefas 
       e satisfação com informações de suporte durante as tarefas, que possibilita visualizar a percepção do usuário a respeito da
-      usabilidade do sistema (LEWIS, 1991).
+      usabilidade do sistema \cite{lewis91}.
       
       O questionário ASQ mostra se um recurso de avaliação rápido e eficaz para avaliar imediatamente a satisfação do usuário
       frente a um cenário de uso, evidenciando sua passividade de uso no projeto.
@@ -95,10 +95,38 @@
     \subsection{\textit{Post Study System Usability Questionnaire} - PSSUQ}
       
       O questionário PSSUQ é um instrumento que também permite avaliar a satisfação percebida pelo usuário ao utilizar um
-      sistema (LEWIS, 2002). Diferentemente do ASQ, o PSSUQ deve ser aplicado após completado um conjunto definido de cenários,
+      sistema \cite{lewis02}. Diferentemente do ASQ, o PSSUQ deve ser aplicado após completado um conjunto definido de cenários,
       para avaliar de forma generalizada o sistema (um conjunto de cenários).
       
       Assim como o ASQ, o PSSUQ também possui um padrão gradativo de resposta de sete escalas que varia de “Concordo fortemente”
       a “Discordo fortemente” e possui a opção “Não aplicável” fora da escala, porém conta com dezenove itens para a avaliação,
       onde cada item tem a possibilidade de receber um comentário do usuário. Os itens do PSSUQ permite avaliar o sistema em quatro
       aspectos, fornecendo medidas para cada um deles. São eles:
+      
+      \begin{itemize}
+       \item \textit{SysUse} - Avalia a usabilidade do sistema (\textit{System Usefulness}).
+	  \subitem Questões 1-8;
+      
+       \item \textit{InfoQual} - Avalia a qualidade da informação fornecida pelo sistema. (\textit{Information Quality})
+	  \subitem Questões 9-15;
+	  
+       \item \textit{InterQual} - Avalia a qualidade da interface do sistema (\textit{Interface Quality}).
+	  \subitem Questões 16-18;
+       
+       \item \textit{Overall} - Avalia a satisfação geral do usuário com o sistema.
+	  \subitem Questões 1-19.
+
+      \end{itemize}
+      
+      Para obter a pontuação de qualquer área, basta calcular a média aritmética das pontuações das questões relacionadas à área.
+      
+      Um ponto interessante deste questionário é que, devido a utilização de técnicas psicométricas, a não observância de
+      algumas questões não impacta significativamente no resultado obtido, ou seja, um questionário incompleto possui, 
+      tecnicamente, a mesma confiabilidade de um questionário completo \cite{lewis02}. Outro ponto interessante é que o
+      resultado do PSSUQ não possui variações significativas em detrimento ao sexo do usuário \cite{lewis02}.
+      
+      Com o que foi exposto, percebe-se que o PSSUQ é um questionário poderoso que permite uma avaliação confiável da
+      satisfação do usuário em relação ao sistema. Como o PSSUQ deve ser utilizado após um conjunto de cenários ter sido
+      completado, o seu uso concomitante com o ASQ se mostra uma prática promissora para a avaliação, pois, enquanto o ASQ
+      retorna um feedback a cada cenário realizado, o PSSUQ permite um feedback geral do sistema que está sendo analisado.
+
