@@ -30,11 +30,19 @@
       O \textit{Website Analysis MeasureMent Inventory} (WAMMI) é um serviço analítico para a \textit{web} que mede e analisa a experiência do
       usuário em um \textit{website}, baseado na reação dos visitantes. Essa reação dos visitantes é medida com base na comparação das
       expectativas do usuário com o que realmente foi encontrado no \textit{site}, por meio de um questionário de 20 questões que pode
-      ser expandido com algumas questões adicionais.
+      ser expandido com algumas questões adicionais. A Figura ~\ref{wammi_questions} ilustra um exemplo dos itens do questionário WAMMI.
+      
+      \begin{figure}[!htpb]
+	\centering
+	\includegraphics[scale=0.67]{editaveis/figuras/wammi_questions}
+	\caption[Exemplo de itens do questionário WAMMI]{Exemplo de itens do questionário WAMMI. \footnotemark}
+	\label{wammi_questions}
+      \end{figure}
       
       As questões do WAMMI permitem analisar cinco fatores de usabilidade, Atratividade, Controlabilidade, Eficiência, Utilidade
       e Capacidade de aprendizado por meio de um padrão de resposta gradativo de cinco escalas que varia de “Concordo fortemente”
       a “Discordo fortemente”.
+      \footnotetext{Disponível em: <http://www.wammi.com/samples/>.}
       
       Os serviços de análise das questões fornecidos pelo WAMMI são únicos, devido a todo arcabouço matemático e científico
       envolvido na sua construção, e, apesar do WAMMI ser voltado para \textit{websites}, para poder utilizá-lo no projeto, as perguntas
@@ -85,9 +93,16 @@
       a “Discordo fortemente” e também conta com a opção “Não aplicável” fora da escala. A pontuação do questionário pode ser
       obtida pela média aritmética dos pontos de cada questão.
       
+      \begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.28]{editaveis/figuras/asq_questions}
+	\caption[Questões do questionário ASQ]{Questões do questionário ASQ. Fonte: \cite{lewis91}.}
+	\label{asq_questions}
+      \end{figure}
+      
       Os aspectos abordados nos itens do ASQ são: facilidade de completar as tarefas, tempo necessário para completar as tarefas 
       e satisfação com informações de suporte durante as tarefas, que possibilita visualizar a percepção do usuário a respeito da
-      usabilidade do sistema \cite{lewis91}.
+      usabilidade do sistema \cite{lewis91}. A Figura ~\ref{asq_questions} mostra as três questões do ASQ.
       
       O questionário ASQ mostra se um recurso de avaliação rápido e eficaz para avaliar imediatamente a satisfação do usuário
       frente a um cenário de uso, evidenciando sua passividade de uso no projeto.
@@ -100,8 +115,8 @@
       
       Assim como o ASQ, o PSSUQ também possui um padrão gradativo de resposta de sete escalas que varia de “Concordo fortemente”
       a “Discordo fortemente” e possui a opção “Não aplicável” fora da escala, porém conta com dezenove itens para a avaliação,
-      onde cada item tem a possibilidade de receber um comentário do usuário. Os itens do PSSUQ permite avaliar o sistema em quatro
-      aspectos, fornecendo medidas para cada um deles. São eles:
+      onde cada item tem a possibilidade de receber um comentário do usuário. Os itens do PSSUQ (vide Figura ~\ref{pssuq_questions})
+      permite avaliar o sistema em quatro aspectos, fornecendo medidas para cada um deles. São eles:
       
       \begin{itemize}
        \item \textit{SysUse} - Avalia a usabilidade do sistema (\textit{System Usefulness}).
@@ -120,13 +135,20 @@
       
       Para obter a pontuação de qualquer área, basta calcular a média aritmética das pontuações das questões relacionadas à área.
       
+      
       Um ponto interessante deste questionário é que, devido a utilização de técnicas psicométricas, a não observância de
       algumas questões não impacta significativamente no resultado obtido, ou seja, um questionário incompleto possui, 
       tecnicamente, a mesma confiabilidade de um questionário completo \cite{lewis02}. Outro ponto interessante é que o
       resultado do PSSUQ não possui variações significativas em detrimento ao sexo do usuário \cite{lewis02}.
       
+      \begin{figure}[!htpb]
+	\centering
+	\includegraphics[scale=0.7]{editaveis/figuras/pssuq_questions}
+	\caption[Questões do questionário PSSUQ]{Questões do questionário PSSUQ. Fonte: \cite{lewis02}.}
+	\label{pssuq_questions}
+      \end{figure}
+      
       Com o que foi exposto, percebe-se que o PSSUQ é um questionário poderoso que permite uma avaliação confiável da
       satisfação do usuário em relação ao sistema. Como o PSSUQ deve ser utilizado após um conjunto de cenários ter sido
       completado, o seu uso concomitante com o ASQ se mostra uma prática promissora para a avaliação, pois, enquanto o ASQ
       retorna um feedback a cada cenário realizado, o PSSUQ permite um feedback geral do sistema que está sendo analisado.
-
