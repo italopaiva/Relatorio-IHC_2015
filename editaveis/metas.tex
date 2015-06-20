@@ -1,4 +1,4 @@
-\chapter{Metas para a aplicação}
+\chapter{Metas e princípios de usabilidade}
   
   Essa seção apresenta as metas que se deseja alcançar com a aplicação.
 
@@ -7,7 +7,7 @@
     “A usabilidade é geralmente considerada como o fator que assegura que os produtos são fáceis de usar, 
     eficientes e agradáveis - da perspectiva do usuário.” \cite{preece}.
     
-    Segundo \citeauthor{preece} (\citeyear{preece}), a usabilidade está dividida nas seguintes metas:
+    Segundo \citeauthor{preece} (\citeyear{preece}), a usabilidade pode ser dividida nas seguintes metas:
     
     \begin{itemize}
        \item Ser eficaz no uso.
@@ -29,24 +29,46 @@
        \item Ser fácil de se lembrar como se usa.
        \subitem Refere-se a facilidade que o usuário tem de se lembrar de como se usa as funcionalidades do sistema.
     \end{itemize}
-  
-    O sistema apresenta uma grande utilidade para o usuário, pois atendeu a uma necessidade que surgiu perante a situação. 
-    O sistema deve atender a essa necessidade de forma eficaz, resolvendo o problema do usuário de forma
-    descomplicada e bem feita, de modo a facilitar também o aprendizado do uso. As funcionalidades do sistema devem estar visíveis 
-    para a facilidade do uso e o sistema deve sempre retornar um \textit{feedback} ao usuário a respeito das ações que estão
-    sendo executadas.
     
-    Portanto, as metas e princípios de usabilidade desejadas para a aplicação são:
+  \section{Princípios de usabilidade}
+  
+    Outra forma de classificar a usabilidade se dá por meio de abstrações generalizáveis utilizadas para orientar os \textit{designers}
+    sobre aspectos diferentes do \textit{design} no desenvolvimento, os princípios de usabilidade \cite{preece}. Os mais comuns são:
     
     \begin{itemize}
-     \item Utilidade
-     \item Eficácia
-     \item Eficiência
      \item Visibilidade
+	
+	\subitem Quanto mais visíveis as funcionalidades do sistema, mais fácil será para o usuário saber como proceder \cite{preece}.
+      
      \item \textit{Feedback}
+	
+	\subitem Relacionado ao princípio da Visibilidade, o \textit{feedback} diz respeito ao retorno de informações sobre as
+	  ações realizadas pelo o usuário, permitindo a continuidade da operação \cite{preece}.
+     
+     \item Restrições
+     
+	\subitem As restrições está intrisecamente relacionadas com a prevenção de erros pelo usuário, impedindo-o de realizar 
+	  tarefas que não são possíveis em determinado contexto \cite{preece}.
+
+     \item Mapeamento
+	
+	\subitem Refere-se ao mapeamento dos controles e os seus efeitos no mundo real \cite{preece}.
+	  Os controles de um determinado conjunto de funções devem manter a consistência com o mundo real para que haja uma
+	  percepção natural por parte do usuário.
+	
+     \item Consistência
+	
+	\subitem A consistência está relacionada com a obediências às regras estabelecidas para as operações do sistema. 
+	  Uma interface consistente não permite exceções às regras, mantendo o mesmo padrão para realizar operações
+	  semelhantes \cite{preece}.
+	
+     \item \textit{Affordance}
+	
+	\subitem Segundo Norman (1998, \textit{apud} \citeauthor{preece}, \citeyear{preece}) \textit{affordance} é "dar uma pista".
+	  Está relacionado ao atributo de algum objeto que permite às pessoas inferir como utilizá-lo \cite{preece}.
+	  
     \end{itemize}
-
-
+   
   \section{Metas decorrentes da experiência do usuário}
     
     “O objetivo de desenvolver produtos interativos agradáveis, divertidos, esteticamente apreciáveis, etc. 
@@ -69,27 +91,54 @@
        \item Interessantes.
        \subitem Refere-se a capacidade que o sistema tem de despertar interesse por parte do usuário em utilizá-lo.
 
-       \item úteis.
+       \item Úteis.
        \subitem Refere-se ao nível de utilidade do sistema no cotidiano do usuário.
 
        \item Motivadores.
        \subitem Refere-se ao nível de motivação que o sistema pode causar ao usuário.
 
-       \item esteticamente apreciáveis.
+       \item Esteticamente apreciáveis.
        \subitem Refere-se ao quão agradável o \textit{design} do sistema pode ser ao usuário.
 
        \item Incentivadores de criatividade.
        \subitem Refere-se ao nível de criatividade que o sistema pode despertar no usuário.
 
        \item Compensadores.
-       \subitem Refere-se ao quao compensador o uso do sistema pode ser ao usuário.
+       \subitem Refere-se ao quão compensador o uso do sistema pode ser ao usuário.
 
        \item Emocionalmente adequados.
        \subitem Refere-se aos tipos de emoções que o sistema causa ao usuário e se estas estão adequadas ao sobjetivos do sistema.
     \end{itemize}
     
-    Notificações de aplicativos tendem a ser algo indesejado e incomodam. Para que um aplicativo, cujo foco é enviar notificações,
-    não incomode neste aspecto, o aplicativo deve se manter interessante a ao mesmo tempo útil e prático. Algo com importância similar
-    é a aparência do aplicativo, precisando ser esteticamente agradável, de modo que seja compensador para o usuário quando ele abrir 
-    o aplicativo.
+    \section{Metas e princípios para a aplicação}
+    
+      Para a aplicação proposta, o sistema deve apresentar uma grande utilidade para o usuário, pois precisa atender uma necessidade
+      que possa surgir em determinada situação. O sistema deve atender a essa necessidade de forma eficaz, resolvendo o problema
+      do usuário de forma descomplicada e bem feita, de modo a facilitar também o aprendizado do uso. As funcionalidades do sistema
+      devem estar visíveis para a facilidade do uso e o sistema deve sempre retornar um \textit{feedback} ao usuário a respeito
+      das ações que estão sendo executadas.
+      
+      Portanto, as metas e princípios de usabilidade desejadas para a aplicação são:
+      
+      \begin{itemize}
+	\item Utilidade;
+	\item Eficácia;
+	\item Eficiência;
+	\item Visibilidade;
+	\item \textit{Feedback}.
+      \end{itemize}
+    
+      Notificações de aplicativos tendem a ser algo indesejado e incomodam. Para que um aplicativo cujo foco é enviar notificações
+      não incomode neste aspecto, o aplicativo deve se manter interessante a ao mesmo tempo útil e prático. Algo com importância similar
+      é a aparência do aplicativo, precisando ser esteticamente agradável.
+      
+      Portanto, espera-se que a aplicação, para o usuário, seja:
+      
+      \begin{itemize}
+       \item Interessante;
+       \item Útil;
+       \item Esteticamente agradável.
+     \end{itemize}
+
+      
     
