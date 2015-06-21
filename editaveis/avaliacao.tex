@@ -185,5 +185,59 @@
 	demais dimensões, não sendo possível evoluir sozinha. Por esse motivo, apresentou uma evolução ligeiramente razoável da primeira
 	para a segunda iteração de avaliação.
       
-      
+    \pagebreak
+    \section{Avaliações de acessibilidade}
+     
+    Possuem como objetivo avaliar as características do protótipo da aplicação, em sua versão para Desktop, no 
+    que diz respeito à acessibilidade.
     
+    Para realizar as avaliações de acessibilidade foram utilizadas duas ferramentas:
+
+    \begin{itemize}
+	\item Avaliador e Simulador de Acessibilidade de Sítios (ASES);
+	\item Colour Contrast Analyser.
+    \end{itemize}
+     
+    \subsection{Datas das avaliações}
+
+    \begin{itemize}
+	\item 18/06/2015 – ASES
+	\item 19/06/2015 – Colour Contrast Analyser
+    \end{itemize}
+               
+    \subsection{Dados coletados}
+    
+    \subsubsection{ASES}
+        
+    Após a avaliação, a ferramenta informa os erros presentes no código HTML do
+    protótipo, os dividindo em prioridades 1, 2 e 3. De acordo com as prioridades, os erros são 
+    relatados a seguir:    
+    
+    \begin{itemize}
+    \item Prioridade 1:
+    
+    Não foi identificado o idioma utilizado nos documentos;
+
+    Não foi fornecido um equivalente textual a cada imagem.
+    \item Prioridade 2:   
+    
+    Não foram utilizados os elementos “label” e “id” para associar os rótulos aos 
+    respectivos controles dos formulários;
+
+    Não foram incluídos caracteres pré-definidos de preenchimento nas caixas de edição;
+
+    Não foram especificados as respostas a eventos.
+    \end{itemize}
+    
+    \subsubsection{Colour Contrast Analyser}
+    
+    Diferente do ASES, a ferramenta diz se os objetos avaliados
+    tiveram resultados positivos ou negativos e assim informa se os mesmos passaram na 
+    avaliação. Nos quatro campos que existem para avaliação, o texto da página passou no teste 
+    de contraste com o fundo.
+    
+    \subsection{Melhorias a serem feitas}
+    
+    Com base nos resultados da avaliação de acessibilidade efetuada, torna-se clara a
+    necessidade de algumas correções na estrutura do código HTML,  para que quando 
+    interpretada por um software de leitura de tela a página possa ser plenamente funcional.
